@@ -27,9 +27,9 @@ Källförteckning: Efternamn 1, I & Efternamn 2, I, Titel, x uppl, Förlag År
 
 ### Boken har tre eller fler författare
 Fotnot: Efternamn 1 m fl, Titel, s x-y.  
-Källförteckning: Efternamn 1, I Efternamn 2, I & Efternamn 4, I, Titel, x uppl, Förlag År
+Källförteckning: Efternamn 1, I Efternamn 2, I & Efternamn 3, I, Titel, x uppl, Förlag År
 
-Avsnitt i bok (monografi)
+Avsnitt i bok
 -------------------------
 Fotnot: Efternamn, Helbokstitel s x.  
 Källförteckning: Efternamn, I, Avsnittsnamn. I: Titel, Förlag År, s x-y
