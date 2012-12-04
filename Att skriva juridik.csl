@@ -11,7 +11,8 @@
         <category field="law" />
         <category citation-format="note"/>
         <summary>For general legal writing in Sweden, based on the handbook Att skriva juridik. (incomplete)</summary>
-        <updated>2012-11-19T22:00:00+01:00</updated>
+        <published>2012-11-19T22:00:00+01:00</published>
+    	<updated>2012-12-04T18:00:00+01:00</updated>
         <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-Share Alike 3.0 Unported License</rights>
     </info>
     <locale xml:lang="sv-SE">
@@ -44,6 +45,18 @@
             <date-part name="year" />
         </date>
     </macro>
+	<macro name="type-sorting">
+		<choose>
+			<if type="bill legal_case" match="any">
+			<!-- Lägger åtminstone förarbeten och rättsfall först, lättare att hitta -->
+				<text value="1"/>
+			</if>
+			<else>
+				<text value="2"/>
+			</else>
+		</choose>
+	</macro>    
+    
     <citation et-al-min="4" et-al-use-first="1">
         <sort>
             <key variable="citation-number" />
@@ -72,7 +85,7 @@
                         <text variable="locator" prefix="vid " />
                     </group>
                 </else-if>
-                <else-if type="bill">
+                <else-if type="bill" match="any">
                     <group delimiter=" ">
                         <text variable="number" />
                         <text variable="locator" prefix="s " />
@@ -90,7 +103,9 @@
     </citation>
     <bibliography>
         <sort>
+        	<key macro="type-sorting"/>
             <key macro="author" />
+            <key variable="title" />
         </sort>
         <layout>
             <choose>

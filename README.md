@@ -6,11 +6,19 @@ Attskrivajuridik-csl är en CSL-stilmall för svenska rättsvetenskapliga texter
 
 Stilen är anpassad för [CSL 1](http://citationstyles.org/), som har stöd i flera källhanteringsprogramvaror, bland andra Zotero, Mendeley, Papers och Qiqqa. Som antyds av namnet baserar den sig på instruktionerna för källangivelser i Jensen, Rylander, Lindblom, *Att skriva juridik*, fjärde upplagan. 
 
-Stilmallen är inte komplett och behöver kompletteras.
+Stilmallen är inte komplett utan är i dagsläget anpassad för hänvisningar till lagförarbeten, rättsfall, monografier, avsnitt ur böcker och tidskriftsartiklar.
 
 I detta dokument anges bland annat hur inmatningarna i källhanteringsprogrammet ska ske för att källhänvisningarna ska se så bra ut som möjligt.
 
-Önskemål om kompletteringar och rättelser kan göras genom att anmäla en [Issue](https://github.com/krevad/attskrivajuridik-csl/issues) eller genom att du helt enkelt gör en *fork* av stilmallen och gör ändringarna själv och skickar en hämtningsförfrågan (pull request) till detta projekt när du är färdig med ändringarna.
+Önskemål om kompletteringar och rättelser kan göras genom att anmäla en [Issue](https://github.com/krevad/attskrivajuridik-csl/issues) på GitHub eller genom att du helt enkelt gör en *fork* av stilmallen och gör ändringarna själv och skickar en hämtningsförfrågan (pull request) till detta projekt när du är färdig med ditt ändringsförslag.
+
+# Särskilda noteringar
+## Sortering i källförteckningen
+I rättsvetenskapliga texter brukar källförteckningen sorteras på det sättet att åberopat offentligt tryck finns under en särskild rubrik, medan övrig litteratur får en annan rubrik. Ibland förekommer också att åberopade rättsfall ges en särskild rubrik i källförteckningen.
+
+Nuvarande CSL-standard har tyvärr inget stöd för sådan komplex sortering, utan där sker i huvudsak sortering strikt alfabetiskt eller kronologiskt med olika varianter. Eftersom sortering efter författare är den vanligaste metoden i rättsvetenskapliga arbeten är detta också vad som valts i denna mall. Det blir fel, men förhoppningsvis minst fel. Givetvis går det att manuellt sortera sina källor vilket förmodligen är en ganska enkel uppgift i skrivandets absoluta slutskede.
+
+Vill man ha automatisk uppdelning av sin källförteckning är man hänvisad till källhanteringsprogrammets funktioner för skapande av källhänvisningar.
 
 # Hur mallen installeras
 ## Zotero
@@ -26,7 +34,8 @@ Vad som ska anges i de olika fältet är ofta klart med hänsyn till fältets na
 I fotnoterna kommer allmänt den *korta titeln* att användas. Den fullständiga titeln förekommer bara i källförteckningen.
 
 ## Böcker (Book)
-
+CSL-standarden har en särskild kategori för avhandlingar. I denna stilmall jämställs de med böcker.
+## Bokavsnitt (Book Section)
 
 ## Artiklar
 ### Vetenskapliga tidskrifter (Journal Article)
@@ -53,14 +62,14 @@ I fältet *y* anges *y*.
 
 #### Orefererade fall
 
-Orefererade fall förekommer ibland som notisfall, exemplvis i NJA-serien, då finns en praxis för hur man hänvisar till dessa. Målnummer kan också användas, vilket främst förekommer vid hänvisningar till underrättsdomar.
+Orefererade fall förekommer ibland som notisfall, då finns en praxis för hur man hänvisar till dessa. I andra fall anges domstolens namn och målnummer.
 
 ### EU:s domstolar
 För utländska rättsordningar gäller i allmänhet de citeringsregler som allmänt gäller där. För svensk del lär EU-domstolens och Europadomstolens avgöranden vara vanligast förekommande.
 
 I källhänvisningen bör hela referensen anges, och nödvändiga uppgifter är målnummer, parterna i målet, och målets plats i rättsfallssamlingen.
 
-Här kan det vara värt att notera att den tidigare förekommande förkortningen REG (Rättsfallssamling för Europeiska gemenskaperna) numera har ersatts med REU (Rättsfallssamling för Europeiska unionen).
+Här kan det vara värt att notera att den tidigare förekommande förkortningen REG (Rättsfallssamling för Europeiska gemenskaperna) sedan Lissabonfördraget har ersatts med REU (Rättsfallssamling för Europeiska unionen).
 
 ### Europadomstolen
 Europadomstolens domar anges med parter och datum.
@@ -68,7 +77,7 @@ Europadomstolens domar anges med parter och datum.
 I fältet *x* anges hela namnet.
 I fälet *kortnamn* anges parterna.
 
-##Lagförarbete (bill)
+##Lagförarbete (Bill)
 Översättningen av det engelska *bill* till *lagförarbete* är egentligen inte helt klar, men rimlig i svensk kontext eftersom fler texter än just propositionen är relevanta.
 
 Lagförarbeten används inte bara för propositioner, utan även utredningar (SOU, Ds), riksdagsmotioner och utskottsbetänkanden.
