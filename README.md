@@ -12,11 +12,15 @@ I detta dokument anges bland annat hur inmatningarna i källhanteringsprogrammet
 
 Önskemål om kompletteringar och rättelser kan göras genom att anmäla en [Issue](https://github.com/krevad/attskrivajuridik-csl/issues) på GitHub eller genom att du helt enkelt gör en *fork* av stilmallen och gör ändringarna själv och skickar en hämtningsförfrågan (pull request) till detta projekt när du är färdig med ditt ändringsförslag.
 
-# Särskilda noteringar
+# Särskilda anmärkningar
+## Förkortningsmarkering
+I svenska texter kan förkortningar markeras med en punkt, såsom i exemplet *prop.* för proposition. Denna metod används även i denna stilmall.
 ## Sortering i källförteckningen
 I rättsvetenskapliga texter brukar källförteckningen sorteras på det sättet att åberopat offentligt tryck finns under en särskild rubrik, medan övrig litteratur får en annan rubrik. Ibland förekommer också att åberopade rättsfall ges en särskild rubrik i källförteckningen.
 
-Nuvarande CSL-standard har tyvärr inget stöd för sådan komplex sortering, utan där sker i huvudsak sortering strikt alfabetiskt eller kronologiskt med olika varianter. Eftersom sortering efter författare är den vanligaste metoden i rättsvetenskapliga arbeten är detta också vad som valts i denna mall. Det blir fel, men förhoppningsvis minst fel. Givetvis går det att manuellt sortera sina källor vilket förmodligen är en ganska enkel uppgift i skrivandets absoluta slutskede.
+Nuvarande CSL-standard har tyvärr inget stöd för sådan komplex sortering, utan där sker i huvudsak sortering strikt alfabetiskt eller kronologiskt med olika varianter. Eftersom sortering efter författare är den vanligaste metoden i rättsvetenskapliga arbeten är detta också vad som valts i denna mall. Det blir visserligen fel, men förhoppningsvis minst fel. Givetvis går det att manuellt sortera sina källor vilket förmodligen är en ganska enkel uppgift i skrivandets absoluta slutskede.
+
+Förarbeten och rättsfall sorteras emellertid först och skiljs därmed från övriga källor. Däremot kommer alla förarbeten respektive rättsfall att sorteras i alfabetisk ordning vilket många gånger kräver manuell sortering efter vilken domstol som avgjort dem för att de ska hamna rätt.
 
 Vill man ha automatisk uppdelning av sin källförteckning är man hänvisad till källhanteringsprogrammets funktioner för skapande av källhänvisningar.
 
@@ -45,8 +49,10 @@ De sidor som artikeln omfattar, alternativt, den sidan artikeln börjar anges i 
 
 När tidskriften pagineras löpande inom samma årgång är *nummer*, det vill säga i vilket häfte artikeln tryckts, inte en nödvändig uppgift.
 
+### Nyhetstidning, dagspress (Newspaper Article)
 
-### Dagspress
+### Annan tidning (Magazine Article)
+
 ## Rättsfall (Case)
 CSL har en egen kategori för rättsfall. Många av de fält som används är anpassade efter det amerikanska rättsystemet vilket innebär att många fält saknar motsvarighet för svenska rättsfall men också rättsfall från EU-domstolen och Europadomstolen.
 
@@ -78,7 +84,7 @@ I fältet *x* anges hela namnet.
 I fälet *kortnamn* anges parterna.
 
 ##Lagförarbete (Bill)
-Översättningen av det engelska *bill* till *lagförarbete* är egentligen inte helt klar, men rimlig i svensk kontext eftersom fler texter än just propositionen är relevanta.
+Översättningen av det engelska *bill* till *lagförarbete* är egentligen inte helt klar, men rimlig i svensk kontext eftersom fler texter än just propositionen är relevanta här.
 
 Lagförarbeten används inte bara för propositioner, utan även utredningar (SOU, Ds), riksdagsmotioner och utskottsbetänkanden.
 
@@ -89,3 +95,13 @@ Såsom *lagstiftare* anges det organ som utfärdat förarbetet i fråga.
 *xxx-nummer* är referensnumret för förarbetet, exempelvis *Prop. 2006/07:5* eller *SOU 2009:24*.
 
 Ett alternativ till att använda lagförarbete kan vara att ange källan som ett dokument. Detta kan dock få betydelse för hur referensen sorteras i källförteckningen.
+
+##Författning (Statute)
+Det sätt CSL förutsätter att författningar matas in passar inte så väl med svenska författningar.
+
+Författningens namn: Lag (1915:218) om avtal och andra rättshandlingar på förmögenhetsrättens område  
+Kortnamn: AvtL
+
+## Hemsida (Webpage)
+Såsom *titel på webbplats* anges webbplatsens namn, exempelvis *Dagens nyheter*.
+Glöm inte att ange när informationen är hämtad.

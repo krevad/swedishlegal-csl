@@ -12,14 +12,14 @@
         <category citation-format="note" />
         <summary>For general legal writing in Sweden, based on the handbook Att skriva juridik. (incomplete)</summary>
         <published>2012-11-19T22:00:00+01:00</published>
-        <updated>2012-12-04T18:13:00+01:00</updated>
+        <updated>2012-12-06T08:20:00+01:00</updated>
         <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-Share Alike 3.0 Unported License</rights>
     </info>
     <locale xml:lang="sv-SE">
         <terms>
             <term name="et-al">m fl</term>
-            <term name="editor" form="short">red</term>
-            <term name="edition" form="short">uppl</term>
+            <term name="editor" form="short">red.</term>
+            <term name="edition" form="short">uppl.</term>
         </terms>
     </locale>
     <macro name="author-short">
@@ -46,13 +46,16 @@
         </date>
     </macro>
     <macro name="type-sorting">
+	<!-- Lägger åtminstone rättsfall och förarbeten först, lättare att hitta -->
         <choose>
-            <if type="bill legal_case" match="any">
-                <!-- Lägger åtminstone förarbeten och rättsfall först, lättare att hitta -->
+            <if type="legal_case" match="any">
                 <text value="1" />
             </if>
-            <else>
+            <else-if type="bill" match="any">
                 <text value="2" />
+            </else-if>            
+			<else>
+                <text value="3" />
             </else>
         </choose>
     </macro>
@@ -67,7 +70,7 @@
                         <text macro="author-short" />
                         <text variable="container-title" form="short" text-case="title" />
                         <text variable="volume" />
-                        <text variable="locator" prefix="s " />
+                        <text variable="locator" prefix="s. " />
                     </group>
                 </if>
                 <else-if type="book thesis" match="any">
@@ -84,17 +87,24 @@
                         <text variable="locator" prefix="vid " />
                     </group>
                 </else-if>
-                <else-if type="bill" match="any">
+                <else-if type="bill">
                     <group delimiter=" ">
                         <text variable="number" />
-                        <text variable="locator" prefix="s " />
+                        <text variable="locator" prefix="s. " />
                     </group>
                 </else-if>
+                <else-if type="webpage">
+                    <group delimiter=", ">
+                        <text macro="author" />
+                        <text variable="title" form="short" />
+                    	<text variable="container-title" />
+                    </group>
+                </else-if>                
                 <else>
                     <group delimiter=", ">
                         <text macro="author-short" />
                         <text variable="title" form="short" />
-                        <text variable="locator" prefix="s " />
+                        <text variable="locator" prefix="s. " />
                     </group>
                 </else>
             </choose>
@@ -114,14 +124,14 @@
                         <text variable="title" suffix="," />
                         <text variable="container-title" text-case="title" />
                         <text variable="volume" />
-                        <text variable="page" prefix="s " />
+                        <text variable="page" prefix="s. " />
                     </group>
                 </if>
                 <else-if type="book thesis" match="any">
                     <group delimiter=", ">
                         <text macro="author" />
                         <text variable="title" />
-                        <text variable="edition" suffix=" uppl" />
+                        <text variable="edition" suffix=" uppl." />
                     </group>
                     <group prefix=", " delimiter=" ">
                         <text variable="publisher" />
@@ -135,12 +145,24 @@
                     </group>
                 </else-if>
                 <else-if type="legal_case">
-                    <!-- sortera domstolsvis -->
+                    <!-- todo sortera domstolsvis -->
                     <group delimiter=", ">
                         <text variable="number" />
                         <text variable="title" />
                     </group>
                 </else-if>
+                <else-if type="webpage">
+                    <group delimiter=", ">
+                    	<text macro="author" />
+                        <text variable="title" />
+                        <text variable="container-title" />
+                        <group delimiter=" ">
+				        	<date variable="issued" form="numeric" />
+				        	<date variable="accessed" form="numeric" prefix="(" suffix=")" />
+						</group>
+						<text variable="URL"/>
+                    </group>
+                </else-if>                
                 <else>
                     <group delimiter=", ">
                         <text macro="author" />
@@ -152,15 +174,9 @@
                 </else>
             </choose>
         </layout>
-        <!-- 
+<!-- 
   Att göra: 
-  Ordna sortering: rättsfall, förarbeten
   Skapa citat- och källförteckingsmall för dokument (kolla översättning)
-  
-  Skilj ut 
-  - tidskriftsartiklar
-  - domar
-  - avsnitt ur böcker
   -->
     </bibliography>
 </style>
