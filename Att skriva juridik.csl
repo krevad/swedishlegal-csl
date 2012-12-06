@@ -77,7 +77,7 @@
                     <group delimiter=", ">
                         <text macro="author-short" />
                         <text variable="title" form="short" />
-                        <text variable="locator" prefix="s " />
+                        <text variable="locator" prefix="s. " />
                     </group>
                 </else-if>
                 <else-if type="legal_case">
