@@ -6,7 +6,7 @@ Attskrivajuridik-csl är en CSL-stilmall för svenska rättsvetenskapliga texter
 
 Stilen är anpassad för [CSL 1](http://citationstyles.org/), som har stöd i flera källhanteringsprogramvaror, bland andra Zotero, Mendeley, Papers och Qiqqa. Som antyds av namnet baserar den sig på instruktionerna för källangivelser i Jensen, Rylander, Lindblom, *Att skriva juridik*, fjärde upplagan. 
 
-Stilmallen är inte komplett utan är i dagsläget anpassad för hänvisningar till lagförarbeten, rättsfall, monografier, avsnitt ur böcker och tidskriftsartiklar.
+Stilmallen är inte komplett utan är i dagsläget anpassad för hänvisningar till lagförarbeten, rättsfall, monografier, avsnitt ur böcker, webbsidor och tidskriftsartiklar.
 
 I detta dokument anges bland annat hur inmatningarna i källhanteringsprogrammet ska ske för att källhänvisningarna ska se så bra ut som möjligt.
 
@@ -20,19 +20,19 @@ I rättsvetenskapliga texter brukar källförteckningen sorteras på det sättet
 
 Nuvarande CSL-standard har tyvärr inget stöd för sådan komplex sortering, utan där sker i huvudsak sortering strikt alfabetiskt eller kronologiskt med olika varianter. Eftersom sortering efter författare är den vanligaste metoden i rättsvetenskapliga arbeten är detta också vad som valts i denna mall. Det blir visserligen fel, men förhoppningsvis minst fel. Givetvis går det att manuellt sortera sina källor vilket förmodligen är en ganska enkel uppgift i skrivandets absoluta slutskede.
 
-Förarbeten och rättsfall sorteras emellertid först och skiljs därmed från övriga källor. Däremot kommer alla förarbeten respektive rättsfall att sorteras i alfabetisk ordning vilket många gånger kräver manuell sortering efter vilken domstol som avgjort dem för att de ska hamna rätt.
+Förarbeten och rättsfall sorteras emellertid först och skiljs därmed från övriga källor. Däremot kommer alla förarbeten respektive rättsfall att sorteras i alfabetisk ordning vilket många gånger kräver manuell sortering för att de ska hamna rätt.
 
 Vill man ha automatisk uppdelning av sin källförteckning är man hänvisad till källhanteringsprogrammets funktioner för skapande av källhänvisningar.
 
 # Hur mallen installeras
 ## Zotero
 1. Ladda hem stilmallen.
-2. Inställningar... > Fliken Källhänvisa > Fliken Stilar > Knappen + > Välj den nedladdade mallen.
+2. Inställningar... > Fliken Källhänvisa > Fliken Stilar > +-knappen > Välj den nedladdade mallen.
 
 # Hur mallen används
-Begrepp från svenska översättningen av Zotero kommer att användas här för översiktlighetens skull, den engelska frasen förekommer ibland inom parentes.
+Begrepp från den svenska översättningen av Zotero kommer att användas här för översiktlighetens skull, den engelska frasen förekommer ibland inom parentes.
 
-##Allmänt
+## Allmänt
 Vad som ska anges i de olika fältet är ofta klart med hänsyn till fältets namn. Fält som *titel*, *författare* och *ISSN* kommer inte att kommenteras fortsättningsvis om det inte finns särskilda skäl för det.
 
 I fotnoterna kommer allmänt den *korta titeln* att användas. Den fullständiga titeln förekommer bara i källförteckningen.
@@ -83,7 +83,7 @@ Europadomstolens domar anges med parter och datum.
 I fältet *x* anges hela namnet.
 I fälet *kortnamn* anges parterna.
 
-##Lagförarbete (Bill)
+## Lagförarbete (Bill)
 Översättningen av det engelska *bill* till *lagförarbete* är egentligen inte helt klar, men rimlig i svensk kontext eftersom fler texter än just propositionen är relevanta här.
 
 Lagförarbeten används inte bara för propositioner, utan även utredningar (SOU, Ds), riksdagsmotioner och utskottsbetänkanden.
@@ -96,7 +96,7 @@ Såsom *lagstiftare* anges det organ som utfärdat förarbetet i fråga.
 
 Ett alternativ till att använda lagförarbete kan vara att ange källan som ett dokument. Detta kan dock få betydelse för hur referensen sorteras i källförteckningen.
 
-##Författning (Statute)
+## Författning (Statute)
 Det sätt CSL förutsätter att författningar matas in passar inte så väl med svenska författningar.
 
 Författningens namn: Lag (1915:218) om avtal och andra rättshandlingar på förmögenhetsrättens område  

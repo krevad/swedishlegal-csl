@@ -30,7 +30,7 @@ Fotnot: Efternamn 1 m fl., Titel, s x-y.
 Källförteckning: Efternamn 1, I., Efternamn 2, I. & Efternamn 3, I., Titel, x uppl., Förlag År
 
 Avsnitt i bok
--------------------------
+-------------
 Fotnot: Efternamn, Helbokstitel s x.  
 Källförteckning: Efternamn, I., Avsnittsnamn. I: Titel, Förlag År, s x-y
 
@@ -45,6 +45,6 @@ Fotnot: Efternamn Tidskrift-kortnamn år s. x.
 Källförteckning: Efternamn, I., Titel, Tidskrift-kortnamn år s. x-y
 
 Webbsida
---------------
+--------
 Fotnot: Efternamn, I., Titel, Webbplats.
 Källförteckning: Efternamn, I., Titel, Webbplats, Publiceringsdatum (Hämtningsdatum), URL
