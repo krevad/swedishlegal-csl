@@ -110,7 +110,15 @@
                         <text variable="title" form="short" />
                     	<text variable="container-title" />
                     </group>
-                </else-if>                
+                </else-if>
+                <else-if type="report">
+                    <group delimiter=", ">
+                        <text variable="number" />
+                        <text macro="author-short" />
+                        <text variable="title" form="short" />
+                        <text variable="locator" prefix="s. " />
+                    </group>
+                </else-if>                                
                 <else>
                     <group delimiter=", ">
                         <text macro="author-short" />
@@ -191,7 +199,16 @@
 						</group>
 						<text variable="URL" />
                     </group>
-                </else-if>                
+                </else-if>
+                <else-if type="report">                
+                    <group delimiter=", ">
+                        <text macro="author" />
+                        <text variable="title" />
+                        <text variable="number" />
+                        <text variable="publisher" />
+                        <text macro="issued" />
+                    </group>
+                </else-if>     
                 <else>
                     <group delimiter=", ">
                         <text macro="author" />
