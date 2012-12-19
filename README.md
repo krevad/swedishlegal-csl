@@ -12,6 +12,9 @@ I detta dokument anges bland annat hur inmatningarna i källhanteringsprogrammet
 
 Önskemål om kompletteringar och rättelser kan göras genom att anmäla en [Issue](https://github.com/krevad/attskrivajuridik-csl/issues) på GitHub eller genom att du helt enkelt gör en *fork* av stilmallen och gör ändringarna själv och skickar en hämtningsförfrågan (pull request) till detta projekt när du är färdig med ditt ändringsförslag.
 
+# Kvar att göra
+Hantering av flera olika upplagor av samma källa. 
+
 # Särskilda anmärkningar
 ## Förkortningsmarkering
 I svenska texter kan förkortningar markeras med en punkt, såsom i exemplet *prop.* för proposition. Denna metod används även i denna stilmall.

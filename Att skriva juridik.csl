@@ -12,7 +12,7 @@
         <category citation-format="note" />
         <summary>For general legal writing in Sweden, based on the handbook Att skriva juridik. (incomplete)</summary>
         <published>2012-11-19T22:00:00+01:00</published>
-        <updated>2012-12-09T11:25:00+01:00</updated>
+        <updated>2012-12-19T22:55:00+01:00</updated>
         <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-Share Alike 3.0 Unported License</rights>
     </info>
     <locale xml:lang="sv-SE">
@@ -40,6 +40,16 @@
             </substitute>
         </names>
     </macro>
+    <macro name="editor">
+        <names variable="editor">
+        	<name and="symbol" name-as-sort-order="all" initialize-with=". " />
+			<label form="short" prefix=" (" suffix=")" plural="never"/>
+    	</names>
+	</macro>
+	<macro name="edition">
+		<text variable="edition" form="ordinal" suffix=" " />
+    	<text term="edition" form="short" />
+	</macro>
     <macro name="issued">
         <date variable="issued">
             <date-part name="year" />
@@ -65,7 +75,7 @@
         <sort>
             <key variable="citation-number" />
         </sort>
-        <layout suffix=".">
+        <layout delimiter="; " suffix=".">
             <choose>
                 <if type="article article-magazine article-newspaper article-journal review" match="any">
                     <group delimiter=" ">
@@ -75,7 +85,7 @@
                         <text variable="locator" prefix="s. " />
                     </group>
                 </if>
-                <else-if type="book thesis" match="any">
+                <else-if type="book thesis chapter" match="any">
                     <group delimiter=", ">
                         <text macro="author-short" />
                         <text variable="title" form="short" />
@@ -134,13 +144,30 @@
                     <group delimiter=", ">
                         <text macro="author" />
                         <text variable="title" />
-                        <text variable="edition" suffix=" uppl." />
+                        <text macro="edition" />
                     </group>
                     <group prefix=", " delimiter=" ">
                         <text variable="publisher" />
                         <text macro="issued" />
                     </group>
                 </else-if>
+                <else-if type="chapter">
+                    <group delimiter=", ">
+                        <text macro="author" />
+                        <text variable="title" />
+                        <group delimiter=" ">
+                        	<text term="in" text-case="capitalize-first" suffix=":"/>
+                       		<text variable="container-title" suffix="." />
+							<text macro="editor" />
+						</group>
+                       	<text macro="edition" />
+                    	<group delimiter=" ">
+                        	<text variable="publisher" />
+                        	<text macro="issued" />
+                        </group>
+                        <text variable="page" prefix="s. " />
+                    </group>
+                </else-if>                
                 <else-if type="bill">
                     <group delimiter=" ">
                         <text variable="number" suffix="." />
@@ -169,7 +196,7 @@
                     <group delimiter=", ">
                         <text macro="author" />
                         <text variable="title" />
-                        <text variable="edition" />
+                        <text macro="edition" />
                         <text variable="publisher" />
                         <text macro="issued" />
                     </group>
@@ -177,9 +204,7 @@
             </choose>
         </layout>
 <!-- 
-  Att göra: 
-  Skapa citat- och källförteckingsmall för dokument (kolla översättning)
-  Hantera flera källor för samma not.
+  Att göra:
   -->
     </bibliography>
 </style>
