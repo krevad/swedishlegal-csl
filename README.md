@@ -6,7 +6,11 @@ Attskrivajuridik-csl är en CSL-stilmall för svenska rättsvetenskapliga texter
 
 Stilen är anpassad för [CSL 1](http://citationstyles.org/), som har stöd i flera källhanteringsprogramvaror, bland andra Zotero, Mendeley, Papers och Qiqqa. Som antyds av namnet baserar den sig på instruktionerna för källangivelser i Jensen, Rylander, Lindblom, *Att skriva juridik*, fjärde upplagan. 
 
-Stilmallen är inte komplett utan är i dagsläget anpassad för hänvisningar till lagförarbeten, rättsfall, monografier, avsnitt ur böcker, webbsidor och tidskriftsartiklar.
+Det finns ingen enhetlig citeringsstil för svenska rättsvetenskapliga arbeten i kontrast med den på psykologins område förhärskande APA-standarden. Det kan till och med i frågasättas om total enlighet ens är önskvärd. Huvudsaken är att hänvisningen är tydlig. Med detta krav på tydlighet följer att källan bör vara lättläst och otvetydig, detta uppnås bäst när hänvisningen är kort, men ändå tillräckligt informativ för att läsaren lätt ska förstå hänvisningen. De anvisningar som ges i *Att skriva juridik* är en god utgångspunkt för att uppnå dessa.
+
+Den här stilen kommer inte att vara den bästa i samtliga fall. CSL-standarden följer den princip som gäller för många andra källhanteringsstandarder - enhetlighet. Men det är en lyx som juridiken inte har. Särskilt ett rättsvetenskapligt arbete med källor från olika rättssystem måste ta hänsyn till citeringsmetoderna i de olika rättssystemen. Förhoppningsvis kan dock stilmallen vara till hjälp för större delen av de vanligaste behoven när ett svenskt rättsvetenskapligt arbete skrivs.
+
+Stilmallen är inte komplett utan är anpassad för hänvisningar till lagförarbeten, rättsfall, monografier, avsnitt ur böcker, webbsidor och tidskriftsartiklar.
 
 I detta dokument anges bland annat hur inmatningarna i källhanteringsprogrammet ska ske för att källhänvisningarna ska se så bra ut som möjligt.
 
@@ -38,11 +42,12 @@ Begrepp från den svenska översättningen av Zotero kommer att användas här f
 ## Allmänt
 Vad som ska anges i de olika fältet är ofta klart med hänsyn till fältets namn. Fält som *titel*, *författare* och *ISSN* kommer inte att kommenteras fortsättningsvis om det inte finns särskilda skäl för det.
 
-I fotnoterna kommer allmänt den *korta titeln* att användas. Den fullständiga titeln förekommer bara i källförteckningen.
+I fotnoterna kommer allmänt den *korta titeln* att användas. Den fullständiga titeln förekommer bara i källförteckningen om det finns en korttitel angiven.
 
 ## Böcker (Book)
 CSL-standarden har en särskild kategori för avhandlingar. I denna stilmall jämställs de med böcker.
 ## Bokavsnitt (Book Section)
+Artiklar i antologier eller festskrifter betraktas som bokavsnitt. Både författare, och redaktör anges, samt sidintervall. I källförteckningen sorteras källan efter författaren. 
 
 ## Artiklar
 ### Vetenskapliga tidskrifter (Journal Article)

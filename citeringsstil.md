@@ -2,7 +2,9 @@ Citeringsstil enligt *Att skriva juridik*
 =========================================
 Denna stilmall baserar sig på råden i fjärde upplagan av handboken [Att skriva juridik] [1].
 
-[1]: http://www.iustus.se/page/ovrigt/att-skriva-juridik.html "Jensen, U, Rylander, S, Lindblom P H, Att skriva juridik, 4 uppl, Iustus förlag 2006." 
+[1]: http://www.iustus.se/page/ovrigt/att-skriva-juridik.html "Jensen, U, Rylander, S, Lindblom P H, Att skriva juridik, 4 uppl, Iustus förlag 2006."
+
+Tanken är att *attskrivajuridik-csl* generarar noter och källförteckning i enlighet med respektive beskrivning i detta dokument.
 
 Nedan avser **I** initial, **x** en siffra, **y** slutsiffran i en serie.
 
