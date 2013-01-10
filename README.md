@@ -12,12 +12,14 @@ Den här stilen kommer inte att vara den bästa i samtliga fall. CSL-standarden 
 
 Stilmallen är inte komplett utan är anpassad för hänvisningar till lagförarbeten, rättsfall, monografier, avsnitt ur böcker, webbsidor och tidskriftsartiklar.
 
-I detta dokument anges bland annat hur inmatningarna i källhanteringsprogrammet ska ske för att källhänvisningarna ska se så bra ut som möjligt.
+I detta dokument anges bland annat hur inmatningarna i källhanteringsprogrammet ska ske för att källhänvisningarna ska se ut som avsett.
 
 Önskemål om kompletteringar och rättelser kan göras genom att anmäla en [Issue](https://github.com/krevad/attskrivajuridik-csl/issues) på GitHub eller genom att du helt enkelt gör en *fork* av stilmallen och gör ändringarna själv och skickar en hämtningsförfrågan (pull request) till detta projekt när du är färdig med ditt ändringsförslag.
 
 # Kvar att göra
-Hantering av flera olika upplagor av samma källa. 
+- Hantering av flera olika upplagor av samma källa.
+- Överväg att ta bort [förkortningsmarkörer](http://citationstyles.org/downloads/upgrade-notes.html#stripping-periods).
+- Färdigställ dokumentationen.
 
 # Särskilda anmärkningar
 ## Förkortningsmarkering
@@ -44,6 +46,8 @@ Vad som ska anges i de olika fältet är ofta klart med hänsyn till fältets na
 
 I fotnoterna kommer allmänt den *korta titeln* att användas. Den fullständiga titeln förekommer bara i källförteckningen om det finns en korttitel angiven.
 
+Markera förkortningar med punkt, exempelvis förkortars "proposition" till "prop.".
+
 ## Böcker (Book)
 CSL-standarden har en särskild kategori för avhandlingar. I denna stilmall jämställs de med böcker.
 ## Bokavsnitt (Book Section)
@@ -59,7 +63,11 @@ När tidskriften pagineras löpande inom samma årgång är *nummer*, det vill s
 
 ### Nyhetstidning, dagspress (Newspaper Article)
 
+ATT GÖRA
+
 ### Annan tidning (Magazine Article)
+
+ATT GÖRA
 
 ## Rättsfall (Case)
 CSL har en egen kategori för rättsfall. Många av de fält som används är anpassade efter det amerikanska rättsystemet vilket innebär att många fält saknar motsvarighet för svenska rättsfall men också rättsfall från EU-domstolen och Europadomstolen.
@@ -102,8 +110,6 @@ Såsom *lagstiftare* anges det organ som utfärdat förarbetet i fråga.
 
 *xxx-nummer* är referensnumret för förarbetet, exempelvis *Prop. 2006/07:5* eller *SOU 2009:24*.
 
-Ett alternativ till att använda lagförarbete kan vara att ange källan som ett dokument. Detta kan dock få betydelse för hur referensen sorteras i källförteckningen.
-
 ## Författning (Statute)
 Det sätt CSL förutsätter att författningar matas in passar inte så väl med svenska författningar.
 
@@ -111,5 +117,4 @@ Författningens namn: Lag (1915:218) om avtal och andra rättshandlingar på fö
 Kortnamn: AvtL
 
 ## Hemsida (Webpage)
-Såsom *titel på webbplats* anges webbplatsens namn, exempelvis *Dagens nyheter*.
-Glöm inte att ange när informationen är hämtad.
+Såsom *titel på webbplats* anges webbplatsens namn, exempelvis *Dagens nyheter* eller *Infotorg juridik*. Glöm inte att ange när informationen är hämtad.
