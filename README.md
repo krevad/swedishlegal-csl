@@ -4,7 +4,8 @@ A CSL style for Swedish legal writing.
 
 Attskrivajuridik-csl är en CSL-stilmall för svenska rättsvetenskapliga texter.
 
-Stilen är anpassad för [CSL 1](http://citationstyles.org/), som har stöd i flera källhanteringsprogramvaror, bland andra Zotero, Mendeley, Papers och Qiqqa. Som antyds av namnet baserar den sig på instruktionerna för källangivelser i Jensen, Rylander, Lindblom, *Att skriva juridik*, fjärde upplagan. 
+Stilen är anpassad för [CSL 1](http://citationstyles.org/), som har stöd i flera källhanteringsprogramvaror, bland andra [Zotero](http://zotero,org), [Mendeley](http://www.mendeley.com/), [Papers](http://www.papersapp.com/papers/) och [Qiqqa](http://www.qiqqa.com/). Som antyds av namnet baserar den sig på instruktionerna för källangivelser i Jensen, Rylander, Lindblom, *Att skriva juridik*, fjärde upplagan.  
+**Observera**, den senaste upplagen av denna bok är den femte upplagan.
 
 Det finns ingen enhetlig citeringsstil för svenska rättsvetenskapliga arbeten i kontrast med den på psykologins område förhärskande APA-standarden. Det kan till och med i frågasättas om total enlighet ens är önskvärd. Huvudsaken är att hänvisningen är tydlig. Med detta krav på tydlighet följer att källan bör vara lättläst och otvetydig, detta uppnås bäst när hänvisningen är kort, men ändå tillräckligt informativ för att läsaren lätt ska förstå hänvisningen. De anvisningar som ges i *Att skriva juridik* är en god utgångspunkt för att uppnå dessa.
 
@@ -39,17 +40,18 @@ Vill man ha automatisk uppdelning av sin källförteckning är man hänvisad til
 2. Inställningar... > Fliken Källhänvisa > Fliken Stilar > +-knappen > Välj den nedladdade mallen.
 
 # Hur mallen används
-Begrepp från den svenska översättningen av Zotero kommer att användas här för översiktlighetens skull, den engelska frasen förekommer ibland inom parentes.
+Begrepp från den svenska översättningen av [Zotero](http://zotero.org) kommer att användas här för översiktlighetens skull. Det är inte säkert att termen översatts med samma ord används i det källhanteringsprogram du har. Den engelska frasen förekommer ibland inom parentes.
 
 ## Allmänt
-Vad som ska anges i de olika fältet är ofta klart med hänsyn till fältets namn. Fält som *titel*, *författare* och *ISSN* kommer inte att kommenteras fortsättningsvis om det inte finns särskilda skäl för det.
+Vad som ska anges i de olika fältet är ofta uppenbart med hänsyn till fältets namn. Fält som *titel*, *författare* och *ISSN* kommer inte att kommenteras fortsättningsvis om det inte finns särskilda skäl för det.
 
-I fotnoterna kommer allmänt den *korta titeln* att användas. Den fullständiga titeln förekommer bara i källförteckningen om det finns en korttitel angiven.
+I fotnoterna kommer allmänt den *korta titeln* att användas. Den fullständiga titeln, som bara benämns just *titel*, förekommer bara i källförteckningen om det finns en korttitel angiven. Om en korttitel inte anges kommer den fullständiga titeln även att förekomma i fotnoten. Det är med andra ord inte nödvändigt att ange en korttitel, däremot nödvändigt att ange titel.
 
-Markera förkortningar med punkt, exempelvis förkortars "proposition" till "prop.".
+Markera förkortningar med punkt, exempelvis förkortas "proposition" till "prop.".
 
 ## Böcker (Book)
-CSL-standarden har en särskild kategori för avhandlingar. I denna stilmall jämställs de med böcker.
+CSL-standarden har en särskild kategori för avhandlingar. I denna stilmall jämställs avhandlingar med böcker.
+
 ## Bokavsnitt (Book Section)
 Artiklar i antologier eller festskrifter betraktas som bokavsnitt. Både författare, och redaktör anges, samt sidintervall. I källförteckningen sorteras källan efter författaren. 
 
@@ -65,7 +67,7 @@ När tidskriften pagineras löpande inom samma årgång är *nummer*, det vill s
 
 ATT GÖRA
 
-### Annan tidning (Magazine Article)
+### Annan tidskrift (Magazine Article)
 
 ATT GÖRA
 
@@ -77,14 +79,14 @@ CSL har en egen kategori för rättsfall. Många av de fält som används är an
 #### Refererade fall
 Refererade fall från svenska domstolar följer i allmänhet en serie, NJA-serien för Högsta domstolen, HFD-serien från Högsta förvaltningsdomstolen, AD-serien för Arbetsdomstolen, och så vidare.
 
-I NJA-serien åtskiljs rättsfallen med sidnummer, medan de flesta andra serier rättsfallsreferat använder löpnummer.
+I NJA-serien åtskiljs rättsfallen med sidnummer, medan de flesta andra rättsfallsserier använder löpnummer.
 
-I fältet *x* anges *x*.
-I fältet *y* anges *y*.
+I fältet *Rättsfallsnamn* anges rättsfallets referens som det ska visas i fotnoten och i källförteckningen, exempelvis NJA 2009 s. 889.
+I fältet *Målnummer* anges domstolarnas målnummer, exempelvis T3390-07.
 
 #### Orefererade fall
 
-Orefererade fall förekommer ibland som notisfall, då finns en praxis för hur man hänvisar till dessa. I andra fall anges domstolens namn och målnummer.
+Orefererade fall förekommer ibland som notisfall, då finns en praxis för hur man hänvisar till sådana. I andra fall anges domstolens namn och målnummer som *Rättsfallsnamn*.
 
 ### EU:s domstolar
 För utländska rättsordningar gäller i allmänhet de citeringsregler som allmänt gäller där. För svensk del lär EU-domstolens och Europadomstolens avgöranden vara vanligast förekommande.
@@ -100,11 +102,11 @@ I fältet *x* anges hela namnet.
 I fälet *kortnamn* anges parterna.
 
 ## Lagförarbete (Bill)
-Översättningen av det engelska *bill* till *lagförarbete* är egentligen inte helt klar, men rimlig i svensk kontext eftersom fler texter än just propositionen är relevanta här.
+Översättningen av det engelska *bill* till *lagförarbete* är egentligen inte självklar, men rimlig i svensk kontext eftersom fler texter än just propositionen är relevanta här.
 
 Lagförarbeten används inte bara för propositioner, utan även utredningar (SOU, Ds), riksdagsmotioner och utskottsbetänkanden.
 
-Såsom *sponsor* anges motionsförfattare.
+Såsom *sponsor* anges motionsförfattare, om nödvändigt.
 Såsom *session* anges riksdagsår, om nödvändigt.
 Såsom *lagstiftare* anges det organ som utfärdat förarbetet i fråga.
 
@@ -117,4 +119,4 @@ Författningens namn: Lag (1915:218) om avtal och andra rättshandlingar på fö
 Kortnamn: AvtL
 
 ## Hemsida (Webpage)
-Såsom *titel på webbplats* anges webbplatsens namn, exempelvis *Dagens nyheter* eller *Infotorg juridik*. Glöm inte att ange när informationen är hämtad.
+Såsom *titel på webbplats* anges webbplatsens namn, exempelvis *Dagens nyheter* eller *Infotorg juridik*. Glöm inte att ange när uppgifterna hämtades.
