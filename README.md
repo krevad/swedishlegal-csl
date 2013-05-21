@@ -4,7 +4,7 @@ A CSL style for Swedish legal writing.
 
 Swedish Legal är en CSL-stilmall för svenska rättsvetenskapliga texter.
 
-Stilen är anpassad för [CSL 1](http://citationstyles.org/), som har stöd i flera källhanteringsprogramvaror, bland andra [Zotero](http://zotero,org), [Mendeley](http://www.mendeley.com/), [Papers](http://www.papersapp.com/papers/) och [Qiqqa](http://www.qiqqa.com/). Som antyds av namnet baserar den sig på instruktionerna för källangivelser i Jensen, Rylander, Lindblom, *Att skriva juridik*, fjärde upplagan.  
+Stilen är anpassad för [CSL 1](http://citationstyles.org/), som har stöd i flera källhanteringsprogramvaror, bland andra [Zotero](http://zotero,org), [Mendeley](http://www.mendeley.com/), [Papers](http://www.papersapp.com/papers/) och [Qiqqa](http://www.qiqqa.com/). Stilen baserar sig på instruktionerna för källangivelser i Jensen, Rylander, Lindblom, *Att skriva juridik*, fjärde upplagan.  
 **Observera**, den senaste upplagen av denna bok är den femte upplagan.
 
 Det finns ingen enhetlig citeringsstil för svenska rättsvetenskapliga arbeten i kontrast med den på psykologins område förhärskande APA-standarden. Det kan till och med i frågasättas om total enlighet ens är önskvärd. Huvudsaken är att hänvisningen är tydlig. Med detta krav på tydlighet följer att källan bör vara lättläst och otvetydig, detta uppnås bäst när hänvisningen är kort, men ändå tillräckligt informativ för att läsaren lätt ska förstå hänvisningen. De anvisningar som ges i *Att skriva juridik* är en god utgångspunkt för att uppnå dessa.
