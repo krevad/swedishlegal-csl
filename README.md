@@ -1,8 +1,8 @@
-attskrivajuridik-csl
+Swedish Legal
 ====================
 A CSL style for Swedish legal writing.
 
-Attskrivajuridik-csl är en CSL-stilmall för svenska rättsvetenskapliga texter.
+Swedish Legal är en CSL-stilmall för svenska rättsvetenskapliga texter.
 
 Stilen är anpassad för [CSL 1](http://citationstyles.org/), som har stöd i flera källhanteringsprogramvaror, bland andra [Zotero](http://zotero,org), [Mendeley](http://www.mendeley.com/), [Papers](http://www.papersapp.com/papers/) och [Qiqqa](http://www.qiqqa.com/). Som antyds av namnet baserar den sig på instruktionerna för källangivelser i Jensen, Rylander, Lindblom, *Att skriva juridik*, fjärde upplagan.  
 **Observera**, den senaste upplagen av denna bok är den femte upplagan.
@@ -15,7 +15,7 @@ Stilmallen är inte komplett utan är anpassad för hänvisningar till lagförar
 
 I detta dokument anges bland annat hur inmatningarna i källhanteringsprogrammet ska ske för att källhänvisningarna ska se ut som avsett.
 
-Önskemål om kompletteringar och rättelser kan göras genom att anmäla en [Issue](https://github.com/krevad/attskrivajuridik-csl/issues) på GitHub eller genom att du helt enkelt gör en *fork* av stilmallen och gör ändringarna själv och skickar en hämtningsförfrågan (pull request) till detta projekt när du är färdig med ditt ändringsförslag.
+Önskemål om kompletteringar och rättelser kan göras genom att anmäla en [Issue](https://github.com/krevad/swedishlegal-csl/issues) på GitHub eller genom att du helt enkelt gör en *fork* av stilmallen och gör ändringarna själv och skickar en hämtningsförfrågan (pull request) till detta projekt när du är färdig med ditt ändringsförslag.
 
 # Kvar att göra
 - Hantering av flera olika upplagor av samma källa.
