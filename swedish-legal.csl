@@ -38,6 +38,7 @@
             <name name-as-sort-order="all" initialize-with=". " />
             <substitute>
                 <names variable="editor" />
+                <text variable="title" />
             </substitute>
         </names>
     </macro>
@@ -105,7 +106,7 @@
                 <else-if type="bill">
                     <group delimiter=" ">
                         <text variable="number" />
-                        <text variable="locator" prefix="s. " />
+						<text variable="locator" prefix="s. " />
                     </group>
                 </else-if>
                 <else-if type="legislation">
@@ -142,7 +143,7 @@
         <sort>
             <key macro="type-sorting" />
             <key macro="author" />
-			<key variable="issued" />
+            <key variable="issued" />
             <key variable="title" />
         </sort>
         <layout>
@@ -234,7 +235,7 @@
 </style>
 <!-- 
   Att göra:
-  Ange titel för propositioner vid första förekomsten, endast prop-nr för följande noter.
+  Anonymt utgivna böcker ska sorteras alfabetiskt efter titeln.
   Vid flera källor för samma not, använd kommatecken istället för semikolon.
   Om en proposition föregås av ett prefix, ska inte första bokstaven vara versal. (går det ens?)
   -->
