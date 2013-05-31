@@ -106,7 +106,7 @@
                 <else-if type="bill">
                     <group delimiter=" ">
                         <text variable="number" />
-						<text variable="locator" prefix="s. " />
+                        <text variable="locator" prefix="s. " />
                     </group>
                 </else-if>
                 <else-if type="legislation">
