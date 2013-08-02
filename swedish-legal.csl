@@ -30,6 +30,7 @@
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
+        <text variable="publisher"/>
       </substitute>
     </names>
   </macro>
@@ -123,7 +124,6 @@
         </else-if>
         <else-if type="report">
           <group delimiter=", ">
-            <text variable="number"/>
             <text macro="author-short"/>
             <text variable="title" form="short"/>
             <text variable="locator" prefix="s. "/>
