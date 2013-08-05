@@ -65,6 +65,12 @@
       <date-part name="year"/>
     </date>
   </macro>
+  <macro name="locators">
+    <group delimiter=" ">
+      <label variable="locator" form="short"/>
+      <text variable="locator"/>
+    </group>
+  </macro>
   <macro name="type-sorting">
     <choose>
       <if type="legislation">
@@ -95,26 +101,26 @@
             <text macro="author-short"/>
             <text variable="container-title" form="short" text-case="title"/>
             <text variable="volume"/>
-            <text variable="locator" prefix="s. "/>
+            <text macro="locators"/>
           </group>
         </if>
         <else-if type="book thesis chapter" match="any">
           <group delimiter=", ">
             <text macro="author-short"/>
             <text variable="title" form="short"/>
-            <text variable="locator" prefix="s. "/>
+            <text macro="locators"/>
           </group>
         </else-if>
         <else-if type="legal_case">
           <group delimiter=" ">
             <text variable="title" form="short"/>
-            <text variable="locator" prefix="vid "/>
+            <text macro="locators" prefix="vid "/>
           </group>
         </else-if>
         <else-if type="bill">
           <group delimiter=" ">
             <text variable="number"/>
-            <text variable="locator" prefix="s. "/>
+            <text macro="locators"/>
           </group>
         </else-if>
         <else-if type="legislation">
@@ -133,14 +139,14 @@
           <group delimiter=", ">
             <text macro="author-short"/>
             <text variable="title" form="short"/>
-            <text variable="locator" prefix="s. "/>
+            <text macro="locators"/>
           </group>
         </else-if>
         <else>
           <group delimiter=", ">
             <text macro="author-short"/>
             <text variable="title" form="short"/>
-            <text variable="locator" prefix="s. "/>
+            <text macro="locators"/>
           </group>
         </else>
       </choose>
