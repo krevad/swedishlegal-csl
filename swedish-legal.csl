@@ -14,7 +14,7 @@
     <category field="law"/>
     <summary>For general legal writing in Sweden, based on the handbook Att skriva juridik. (incomplete)</summary>
     <published>2012-11-19T22:00:00+01:00</published>
-    <updated>2013-08-02T15:00:00+02:00</updated>
+    <updated>2013-08-05T10:55:00+02:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="sv-SE">
@@ -22,6 +22,13 @@
       <term name="et-al">m. fl.</term>
       <term name="editor" form="short">red.</term>
       <term name="edition" form="short">uppl.</term>
+      <term name="page" form="short">s.</term>
+      <term name="chapter" form="short">kap.</term>
+      <term name="paragraph" form="short">st.</term>
+      <term name="section" form="short">avs.</term>
+      <term name="volume" form="short">vol.</term>
+      <term name="line" form="short">rad</term>
+      <term name="figure" form="short">fig.</term>		  
     </terms>
   </locale>
   <macro name="author-short">
