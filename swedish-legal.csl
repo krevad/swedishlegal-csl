@@ -168,7 +168,8 @@
             <group delimiter=" ">
               <text variable="container-title" text-case="title"/>
               <text variable="volume"/>
-              <text variable="page" prefix="s. "/>
+              <label variable="page" form="short"/>
+              <text variable="page"/>
             </group>
           </group>
         </if>
