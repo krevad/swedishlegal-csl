@@ -36,7 +36,6 @@
       <name form="short" and="symbol" sort-separator=", " delimiter-precedes-last="never" initialize-with=". "/>
       <substitute>
         <names variable="editor"/>
-        <names variable="translator"/>
         <text variable="publisher"/>
       </substitute>
     </names>
@@ -46,7 +45,8 @@
       <name name-as-sort-order="all" initialize-with=". "/>
       <substitute>
         <names variable="editor"/>
-        <text variable="title"/>
+        <text variable="publisher"/>
+        <text variable="title"/> <!-- känns knasigt. ska detta användas i förteckningen? -->
       </substitute>
     </names>
   </macro>
