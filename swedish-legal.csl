@@ -57,8 +57,10 @@
     </names>
   </macro>
   <macro name="edition">
-    <number variable="edition" form="ordinal" suffix=" "/>
-    <text term="edition" form="short"/>
+    <group delimiter=" ">
+      <number variable="edition" form="ordinal"/>
+      <text term="edition" form="short"/>
+    </group>
   </macro>
   <macro name="issued">
     <date variable="issued">
