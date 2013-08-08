@@ -48,5 +48,5 @@ Källförteckning: Efternamn, I., Titel, Tidskrift-kortnamn år s. x-y
 
 Webbsida
 --------
-Fotnot: Efternamn, I., Titel, Webbplats.
+Fotnot: Efternamn, I., Titel, Webbplats.  
 Källförteckning: Efternamn, I., Titel, Webbplats, Publiceringsdatum (Hämtningsdatum), URL
