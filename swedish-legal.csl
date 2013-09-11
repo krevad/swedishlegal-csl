@@ -46,7 +46,8 @@
       <substitute>
         <names variable="editor"/>
         <text variable="publisher"/>
-        <text variable="title"/> <!-- känns knasigt. ska detta användas i förteckningen? -->
+        <text variable="title"/>
+        <!-- känns knasigt. ska detta användas i förteckningen? -->
       </substitute>
     </names>
   </macro>
