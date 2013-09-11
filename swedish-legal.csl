@@ -28,7 +28,7 @@
       <term name="section" form="short">avs.</term>
       <term name="volume" form="short">vol.</term>
       <term name="line" form="short">rad</term>
-      <term name="figure" form="short">fig.</term>		  
+      <term name="figure" form="short">fig.</term>
     </terms>
   </locale>
   <macro name="author-short">
