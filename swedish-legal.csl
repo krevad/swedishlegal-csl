@@ -59,7 +59,7 @@
   </macro>
   <macro name="edition">
     <group delimiter=" ">
-      <number variable="edition" form="ordinal"/>
+      <number variable="edition"/>
       <text term="edition" form="short"/>
     </group>
   </macro>
