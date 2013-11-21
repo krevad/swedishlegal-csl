@@ -106,7 +106,7 @@
     </sort>
     <layout delimiter="; " suffix=".">
       <choose>
-        <if type="article-journal" match="any">
+        <if type="article-journal">
           <group delimiter=" ">
             <text macro="author-short"/>
             <text variable="container-title" form="short" text-case="title"/>
@@ -114,7 +114,7 @@
             <text macro="locators"/>
           </group>
         </if>
-        <else-if type="book thesis chapter" match="any">
+        <else-if type="book thesis chapter paper-conference" match="any">
           <group delimiter=", ">
             <text macro="author-short"/>
             <text variable="title" form="short"/>
@@ -180,7 +180,7 @@
     </sort>
     <layout>
       <choose>
-        <if type="article-journal">
+        <if type="article-journal paper-conference" match="any">
           <group delimiter=", ">
             <text macro="author"/>
             <text variable="title"/>
