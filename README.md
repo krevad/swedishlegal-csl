@@ -4,7 +4,7 @@ A CSL style for Swedish legal writing.
 
 Swedish Legal är en CSL-stilmall för svenska rättsvetenskapliga texter.
 
-Stilen är anpassad för [CSL 1](http://citationstyles.org/), som har stöd i flera källhanteringsprogramvaror, bland andra [Zotero](http://zotero,org), [Mendeley](http://www.mendeley.com/), [Papers](http://www.papersapp.com/papers/) och [Qiqqa](http://www.qiqqa.com/). Stilen baserar sig på instruktionerna för källangivelser i Jensen, Rylander, Lindblom, *Att skriva juridik*, fjärde upplagan.  
+Stilen är anpassad för [CSL 1](http://citationstyles.org/), som har stöd i flera källhanteringsprogramvaror, bland andra [Zotero](http://zotero.org), [Mendeley](http://www.mendeley.com/), [Papers](http://www.papersapp.com/papers/) och [Qiqqa](http://www.qiqqa.com/). Stilen baserar sig på instruktionerna för källangivelser i Jensen, Rylander, Lindblom, *Att skriva juridik*, fjärde upplagan.  
 **Observera**, den senaste upplagen av denna bok är den femte upplagan.
 
 Det finns ingen enhetlig citeringsstil för svenska rättsvetenskapliga arbeten i kontrast med den på psykologins område förhärskande APA-standarden. Det kan till och med i frågasättas om total enlighet ens är önskvärd. Huvudsaken är att hänvisningen är tydlig. Med detta krav på tydlighet följer att källan bör vara lättläst och otvetydig, detta uppnås bäst när hänvisningen är kort, men ändå tillräckligt informativ för att läsaren lätt ska förstå hänvisningen. De anvisningar som ges i *Att skriva juridik* är en god utgångspunkt för att uppnå dessa.
@@ -93,8 +93,23 @@ För utländska rättsordningar gäller i allmänhet de citeringsregler som allm
 
 I källhänvisningen bör hela referensen anges, och nödvändiga uppgifter är målnummer, parterna i målet, och målets plats i rättsfallssamlingen.
 
-Här kan det vara värt att notera att den tidigare förekommande förkortningen REG (Rättsfallssamling för Europeiska gemenskaperna) sedan Lissabonfördraget har ersatts med REU (Rättsfallssamling för Europeiska unionen).
+**OBS!** Sedan 2014 har unionsdomstolarna anammat ECLI (European Case Law Identifier). Se vidare: [ECLI, metod för hänvisning till rättspraxis] (http://curia.europa.eu/jcms/jcms/P_125997/).
 
+Så här beskrivs referenssystemet:
+> ECLI-koden för domstolens dom av den 12 juli 2005 i mål C-403/03, Schempp, ser till exempel ut på följande sätt: ˮEU:C:2005:446ˮ.
+
+> Den består av följande delar:
+
+ >ˮEUˮ innebär att avgörandet är meddelat av en unionsdomstol (om avgörandet hade kommit från en nationell domstol skulle i stället medlemsstatens kod ha angetts här).  
+>ˮCˮ innebär att avgörandet kommer från domstolen. Avgöranden från tribunalen och personaldomstolen betecknas med ˮTˮ respektive ˮFˮ.  
+ >ˮ2005ˮ innebär att avgörandet meddelades under år 2005. ˮ446ˮ innebär att avgörandet är det 446:e som tilldelades en ECLI‑kod under det berörda året.
+ 
+ [...]
+ 
+> Metoden för hänvisning till rättspraxis från Europeiska unionens domstol bygger på en kombination av ECLI koden, målets vedertagna namn och målnumret.
+
+Fullt exempel: Dom Schempp, C-403/03, EU:C:2005:446, punkt 22.
+ 
 ### Europadomstolen
 Europadomstolens domar anges med parter och datum.
 
